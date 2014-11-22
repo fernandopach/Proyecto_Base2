@@ -8,13 +8,21 @@
         <servlet-name>ServletAutenticar</servlet-name>
         <servlet-class>com.jc.controladores.ServletAutenticar</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>ServletPeliculaInsertar</servlet-name>
+        <servlet-class>com.jc.controladores.ServletPeliculaInsertar</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>Algo</servlet-name>
-        <url-pattern>/primero.xls</url-pattern>
+        <url-pattern>/hola</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>ServletAutenticar</servlet-name>
         <url-pattern>/autenticar</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ServletPeliculaInsertar</servlet-name>
+        <url-pattern>/insertar-peliculas</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
